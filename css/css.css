@@ -33,6 +33,16 @@ button{
     border-radius: 5px;
     background: rgba(0, 0, 0, 0);
     border: 2px solid rgba(0, 0, 0, 0);
+    transition: background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover{
+    background-color: #0d586b;
+    cursor: pointer;
+    transition: background-color 255ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
 }
 
 .it-button{
@@ -69,9 +79,5 @@ button{
     background-size: contain;
     width: 290px;
     height: 50px;  
-}
+  }
 
-button:hover{
-    background-color: #0d586b;
-    cursor: pointer;
-}
