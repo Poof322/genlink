@@ -18,25 +18,21 @@ body{
     display: block;
     margin: 0 auto;
     color: azure;
-    
-    
 }
 
 
-.link{
-    display: flex;
-    margin: 10px;
-    border: 2px solid #d21292;
-}
+
 
 .button-links{
     margin-top: 0;
-    border: 5px solid white;
+ 
 }
 
 button{
+    margin-top: 5px;
     border-radius: 5px;
-    background-color: #308591;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .it-button{
@@ -73,4 +69,10 @@ button{
     background-size: contain;
     width: 290px;
     height: 50px;  
+}
+
+button:hover{
+    
+    background-color: #0d586b;
+    cursor: pointer;
 }
