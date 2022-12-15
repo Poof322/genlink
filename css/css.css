@@ -1,0 +1,76 @@
+body{
+    background: no-repeat;
+       background-color: black;
+       margin: 0;
+       padding: 0;
+       background-image: url(../images/doroga_asfalt_chb_156467_1920x1080.jpg);
+       background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.hero-div{
+    width: 300px;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    color: azure;
+    
+    
+}
+
+
+.link{
+    display: flex;
+    margin: 10px;
+    border: 2px solid #d21292;
+}
+
+.button-links{
+    margin-top: 0;
+    border: 5px solid white;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #308591;
+}
+
+.it-button{
+    
+    background-image: url(../images/logo_itunes_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;
+}
+
+.apple-button{
+
+    background-image: url(../images/logo_applemusic_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;
+}
+
+.spotify-button{
+
+    background-image: url(../images/logo_spotify_onlight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    height: 50px;  
+}
+
+.yt-button{
+    background-image: url(../images/subscribe-youtube-logo-svg-vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 290px;
+    height: 50px;  
+}
