@@ -82,3 +82,12 @@ button:hover{
     height: 50px;  
   }
 
+
+  .sc-button{
+    background-image: url(../images/23-232482_soundcloud-png-logo-graphic-design-transparent-png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 290px;
+    height: 50px;  
+  }
